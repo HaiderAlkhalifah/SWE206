@@ -2,6 +2,9 @@ public class Sorter {
     public static void main(String[] args) {
         
     }
+    public static void sort(int array[]){
+        insertionSort(array);
+    }
 
     public static void selectionSort(int[] arr){  
         for (int i = 0; i < arr.length - 1; i++)  
