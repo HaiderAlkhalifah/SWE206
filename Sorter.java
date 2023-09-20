@@ -18,4 +18,8 @@ public class Sorter {
         }  
     }  
 
+    public static void insertionSort(int arr, int m) {
+        // implementation...
+    }
+
 }
