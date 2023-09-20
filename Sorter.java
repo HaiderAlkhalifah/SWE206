@@ -2,8 +2,12 @@ public class Sorter {
     public static void main(String[] args) {
         
     }
-    public static void sort(int array[]){
-        insertionSort(array);
+    public static void sort(int array[], int whichSort){
+        if (whichSort == 0){
+            selectionSort(array);
+        } else {
+            insertionSort(array);
+        }
     }
 
     public static void selectionSort(int[] arr){  
@@ -33,9 +37,5 @@ public class Sorter {
             array[i+1] = key;  
         }  
     }  
-
-    public static void sort(int array[]){
-        selectionSort(array);
-    }
 
 }
